@@ -42,8 +42,8 @@ Then we make it trim the circle's path in half (just to show how trimming works)
 
     // Trim by computing metrics...
     PathMetrics metrics = path.computeMetrics();
-	PathMetric metric = metrics.first;
-	// ... and then extracting the path.
+    PathMetric metric = metrics.first;
+    // ... and then extracting the path.
     Path trimmedPath = metric.extractPath(0, metric.length / 2);
 
     canvas.drawPath(
