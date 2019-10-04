@@ -56,6 +56,7 @@ Then we make it trim the circle's path in half (just to show how trimming works)
 
 ## Glitch with Trim Circle
 <img src="md_images/glitch.jpeg" width="200" align="right">
+
 Finally, you can see the glitch by replacing ```metric.length / 2``` with very short length path (0, 0.00002)
 
 ```dart
